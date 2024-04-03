@@ -28,21 +28,33 @@
 //#2
 //input is an array of 'candidate' numbers and sum. Output is set of unique combinations of candidate numbers that adds up to the sum
 
-//Console.WriteLine("Input!");
+Console.WriteLine("Input!");
 
-//List<int> candidates = [.. Console.ReadLine()];
-//int sum = int.Parse(Console.ReadLine());
+List<int> candidates = Console.ReadLine().Split().Select(int.Parse).ToList();
+List<int> inputed = new();
+List<string> duplicates = new();
+int sum = int.Parse(Console.ReadLine());
 
-//for (int i = 0; i < candidates.Count(); i++)
-//{
-//    if (candidates[i] > sum) { candidates.RemoveAt(i); i--; continue; }
-//    if (candidates[i] == sum) { Console.WriteLine(candidates[i]); candidates.RemoveAt(i); i--; }
-//}
+for (int i = 0; i < candidates.Count(); i++)
+{
+    if (candidates[i] > sum) { candidates.RemoveAt(i); i--; continue; }
+    if (candidates[i] == sum) 
+    {
+        if (!inputed.Contains(candidates[i]))
+            Console.WriteLine("[" + candidates[i] + "]");
+        inputed.Add(candidates[i]);
+        candidates.RemoveAt(i);
+        i--;
+    }
+}
 
-//foreach (int i in candidates)
-//{
-//    Console.WriteLine(candidates[i]);
-//}
+for (int i = 0; i < candidates.Count(); i++)
+{
+    for (int j = 0; j < candidates.Count(); j++)
+    {
+
+    }
+}
 
 //#3
 //Input is an int array. Output true if all elements of an array is unique or output false if at least one element is duplicated
