@@ -1,0 +1,15 @@
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\bin\Debug\net8.0\Part3.2.exe
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\bin\Debug\net8.0\Part3.2.deps.json
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\bin\Debug\net8.0\Part3.2.runtimeconfig.json
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\bin\Debug\net8.0\Part3.2.dll
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\bin\Debug\net8.0\Part3.2.pdb
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.AssemblyInfoInputs.cache
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.AssemblyInfo.cs
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.csproj.CoreCompileInputs.cache
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.sourcelink.json
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.dll
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\refint\Part3.2.dll
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.pdb
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\Part3.2.genruntimeconfig.cache
+C:\Users\Danii\OneDrive\Рабочий стол\TPW_2\TPW\Part3.2\obj\Debug\net8.0\ref\Part3.2.dll
