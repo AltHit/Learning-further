@@ -18,7 +18,7 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Numbers numbers = new();
             Console.WriteLine("Set values of A and B");

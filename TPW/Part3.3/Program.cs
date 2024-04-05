@@ -17,7 +17,7 @@
         }
         public char GetLastSymbol()
         {
-            return calculationLine[calculationLine.Length - 1];
+            return calculationLine[^1];
         }
         public void DeleteLastSymbol()
         {
@@ -26,7 +26,7 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Calculation line = new();
             Console.WriteLine("Перед вами умная строка\n" +

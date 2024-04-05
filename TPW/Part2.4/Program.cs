@@ -13,7 +13,7 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Welcome to the Game Of Nothing!\n\n" +
                 "Rules of this game are simple: Do not press enter for the longest time possible.\n" +

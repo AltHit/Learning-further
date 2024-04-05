@@ -24,7 +24,7 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Let's begin object creation!\n" +
                 "Enter nothing if you want your values to be default or enter anything if you want to create your own values");
@@ -37,7 +37,7 @@
             else
             {
                 Console.WriteLine("Alright then! If you want to type so much - type me 2 values for your object");
-                Anything newThing = new Anything(Console.ReadLine(), Console.ReadLine());
+                Anything newThing = new(Console.ReadLine(), Console.ReadLine());
                 Console.WriteLine($"Your values are {newThing.defaulted} and {newThing.identified}?\n" +
                     $"Good.\n" +
                     $"Now we have to destroy them!\n" +

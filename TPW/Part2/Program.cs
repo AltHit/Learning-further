@@ -10,7 +10,7 @@
 
     internal class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Student student = new() { Surname = "Ivanov", Birthday = new DateTime(2005, 3, 15), Group = 812, Grades = [5,4,3,3,5] };
             Console.WriteLine("Enter information about student (Surname, Date of birth, Group number and grades");

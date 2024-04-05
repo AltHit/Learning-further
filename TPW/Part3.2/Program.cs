@@ -1,34 +1,27 @@
 ﻿namespace Part3._2
 {
-    class PrivateWorker
+    class PrivateWorker(string name, string surname, float rate, int days)
     {
-        private string name { get; set; }
-        private string surname { get; set; }
-        private float rate { get; set; }
-        private int days { get; set; }
+        private string Name { get; set; } = name;
+        private string Surname { get; set; } = surname;
+        private float Rate { get; set; } = rate;
+        private int Days { get; set; } = days;
 
-        public PrivateWorker(string name, string surname, float rate, int days)
-        {
-            this.name = name;
-            this.surname = surname;
-            this.rate = rate;
-            this.days = days;
-        }
         public float GetSalary()
         {
-            return rate * days;
+            return Rate * Days;
         }
 
-        public string GetName() { return name; }
-        public string GetSurname() {  return surname; }
-        public float GetRate() { return rate; }
-        public int GetDays() { return days; }
+        public string GetName() { return Name; }
+        public string GetSurname() {  return Surname; }
+        public float GetRate() { return Rate; }
+        public int GetDays() { return Days; }
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            PrivateWorker pusher = new PrivateWorker("Anton", "Owerworkov", 10.2f, 14);
+            PrivateWorker pusher = new("Anton", "Owerworkov", 10.2f, 14);
             Console.WriteLine($"Работник {pusher.GetName()} отлично постарался в этом квартале!\n" +
                 $"За {pusher.GetDays()} дней работы он перевыполнил норму\n" +
                 $"С учётом премии ему нужно выплатить {pusher.GetSalary()}$");

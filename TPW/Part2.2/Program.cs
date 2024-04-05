@@ -9,10 +9,10 @@
 
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Press Enter to start inputing train data or enter \"Skip\" to use premade ones");
-            List<Train> depot = new();
+            List<Train> depot = [];
             if (Console.ReadLine() == "Skip")
             {
                 depot =
